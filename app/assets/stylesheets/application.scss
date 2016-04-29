@@ -13,3 +13,20 @@
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome";
+
+h2 {
+  font-weight: 100;
+  text-align: center;
+}
+
+nav.navbar {
+  background: white;
+
+  a.navbar-brand {
+
+    img {
+      height: 20px;
+    }
+  }
+}
