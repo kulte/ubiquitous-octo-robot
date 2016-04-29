@@ -43,6 +43,8 @@ group :development, :test do
   gem 'byebug'
   # rspec-rails is a testing framework for Rails 3.x and 4.x.
   gem 'rspec-rails', '~> 3.1.0'
+  # the font-awesome font bundled as an asset for the rails asset pipeline
+  gem 'font-awesome-rails', '~> 4.5.0.1'
 end
 
 group :development do
