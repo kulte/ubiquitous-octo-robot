@@ -1,24 +1,25 @@
 ## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README documents what steps are necessary to get the application up and
+running.
 
-Things you may want to cover:
+### Ruby version
 
-* Ruby version
+`ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-darwin15]`
 
-* System dependencies
+*Note: The application should run with other, earlier versions of Ruby as well.*
 
-* Configuration
+### System dependencies
 
-* Database creation
+* sqlite
+* ruby
 
-* Database initialization
+### Database creation
 
-* How to run the test suite
+Run `rails db:setup` from Terminal to create the database and load the schema.
+(use rails db:reset to also drop the db first).
 
-* Services (job queues, cache servers, search engines, etc.)
+### Running instructions
 
-* Deployment instructions
-
-* ...
+Run `rails server` from Terminal to run the application in development. This
+will serve the application at `localhost:3000`.
