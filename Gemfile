@@ -30,9 +30,25 @@ gem 'jbuilder', '~> 2.0'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# State machines for Ruby classes (plain Ruby, ActiveRecord, Mongoid, MongoMapper)
+gem 'aasm', '~> 4.10.0'
+# bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right
+# into your Sass powered applications.
+gem 'bootstrap-sass', '~> 3.3.6'
+# Flexible authentication solution for Rails with Warden
+gem 'devise', '~> 4.0.1'
+# the font-awesome font bundled as an asset for the rails asset pipeline
+gem 'font-awesome-rails', '~> 4.5.0.1'
+# Use wicked to turn your controller into a wizard
+gem 'wicked', github: 'schneems/wicked'
+# Minimal authorization through OO design and pure Ruby classes
+gem 'pundit', '~> 1.1.0'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # rspec-rails is a testing framework for Rails 3.x and 4.x.
+  gem 'rspec-rails', '~> 3.1.0'
 end
 
 group :development do
