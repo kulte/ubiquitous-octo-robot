@@ -21,5 +21,8 @@ Run `rails db:setup` from Terminal to create the database and load the schema.
 
 ### Running instructions
 
+Run `bundle install` after cloning the repo in order to install all Ruby
+dependencies.
+
 Run `rails server` from Terminal to run the application in development. This
 will serve the application at `localhost:3000`.
