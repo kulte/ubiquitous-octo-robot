@@ -17,7 +17,7 @@ running.
 ### Database creation
 
 Run `rails db:setup` from Terminal to create the database and load the schema.
-(use rails db:reset to also drop the db first).
+(use `rails db:reset` to also drop the db first).
 
 ### Running instructions
 
